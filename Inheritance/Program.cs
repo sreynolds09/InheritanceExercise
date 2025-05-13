@@ -15,10 +15,10 @@ namespace Inheritance
 
             var bird = new Bird();
 
-            bird.BirdColor = "Orange and Green";
-            bird.BirdSong = "tweet tweet tweet tweet tweet";
-            bird.Food = "sugar water";
-            bird.DistanceMigrated = 100;
+            bird.birdColor = "Orange and Green";
+            bird.birdSong = "tweet tweet tweet tweet tweet";
+            bird.food = "sugar water";
+            bird.distanceMigrated = 100;
 
 
 
@@ -40,7 +40,7 @@ namespace Inheritance
             {
                 Console.WriteLine($"This animal is {animal.age} years old");
                 Console.WriteLine($"This animal is found in {animal.habitat}");
-                Console.WriteLine($"Is this animal hungry? {animal.IsHungry}");
+                Console.WriteLine($"Is this animal hungry? {animal.isHungry}");
                 Console.WriteLine($"This animal sleeps at {animal.sleep}");
                 Console.WriteLine($"");
             }

@@ -8,7 +8,7 @@ namespace Inheritance
         {
             sleep = "During the Day";
             age = 100;
-            IsHungry = true;
+            isHungry = true;
             habitat = "Water";
             
         }

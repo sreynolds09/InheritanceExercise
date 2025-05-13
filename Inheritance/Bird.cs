@@ -8,14 +8,14 @@ namespace Inheritance
         {
             sleep = "At Night";
             age = 2;
-            IsHungry = true;
+            isHungry = true;
             habitat = "Tree";
 
         }
-        public string BirdSong { get; set; }
-        public string Food { get; set; }
-        public int DistanceMigrated { get; set; }
-        public string BirdColor { get; set; }
+        public string birdSong { get; set; }
+        public string food { get; set; }
+        public int distanceMigrated { get; set; }
+        public string birdColor { get; set; }
 
     }
 }
